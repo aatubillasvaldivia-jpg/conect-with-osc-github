@@ -18,11 +18,11 @@ export default function Hero() {
         alt="Soccer players in action on the field"
         priority
         className="absolute inset-0 h-full w-full"
-        imgClassName="opacity-60"
+        imgClassName="scale-[1.02] opacity-60 blur-[1px]"
         note={null} />
-      
-      <div className="absolute inset-0 bg-gradient-to-b from-osc-ink/85 via-osc-ink/70 to-osc-ink" />
-      <div className="absolute inset-0 bg-gradient-to-r from-osc-purple/50 to-transparent" />
+
+      <div className="absolute inset-0 bg-gradient-to-b from-black/65 via-black/45 to-black" />
+      <div className="absolute inset-0 bg-gradient-to-r from-black/40 to-transparent" />
 
       <div className="relative mx-auto flex min-h-[88vh] max-w-7xl flex-col justify-end gap-10 px-5 pb-16 pt-24 lg:px-8 lg:pb-24">
         <div className="max-w-3xl">

@@ -27,9 +27,9 @@ const VALORES = [
 
 const DIRECTOR = {
   nombre: "Elvis Palomino",
-  rol: "Director of Soccer",
+  rol: "Head Coach",
   resumen:
-  "Elvis Palomino is the Director of Soccer at Orlando Soccer Club. He leads the club's on-field methodology, the work of each development stage, and the technical growth of every group — from the youngest players taking their first touches to the competitive squads.",
+  "Elvis Palomino is the Head Coach at Orlando Soccer Club. He leads the club's on-field methodology, the work of each development stage, and the technical growth of every group — from the youngest players taking their first touches to the competitive squads.",
   descripcion:
   "A coach and club builder, Elvis runs every training session with the same standard: technique first, discipline always, and a real commitment to each player's progress. His work shapes how OSC trains, competes, and develops talent in Orlando."
 };
@@ -75,9 +75,9 @@ export default function Nosotros() {
         <div className="space-y-6">
           <Photo
             src="/images/elvis-palomino.webp"
-            alt="Elvis Palomino, Director of Soccer at Orlando Soccer Club, with club trophies"
+            alt="Elvis Palomino, Head Coach at Orlando Soccer Club, with club trophies"
             className="aspect-square w-full rounded-3xl sm:aspect-[6/5]"
-            imgClassName="object-[center_45%]"
+            imgClassName="object-[center_45%] brightness-[0.85]"
             note={null} />
           
 
